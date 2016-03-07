@@ -10,6 +10,10 @@ You can find out more about libstreaming [here](https://github.com/fyhertz/libst
 
 Shows how to use the RTSP server.
 
+After installing, find the LAN IP of your phone, and you can then view an `rtsp://` stream of the camera on port 1234, e.g. from VLC as:
+
+    vlc rtsp://192.168.0.20:1234
+
 ### Example 2
 
 Shows how to start a stream and obtain a SDP that you will then want to hand to the receiver.
